@@ -1,0 +1,34 @@
+this._s=this._s||{};(function(_){var window=this;
+try{
+_.r("dtT8pd");
+_.Iwd=function(a){return[...Array.from(_.pm("EY8ABd",a)),...Array.from(_.pm("iQnBCf",a))]};_.Jwd=function(a){return[...Array.from(_.pm("ziykHb",a)),...Array.from(_.pm("hAndib",a))]};_.Kwd=class{constructor(){this.oa=null}};_.Wo(_.Kwd,_.Hwd);
+_.u();
+}catch(e){_._DumpException(e)}
+try{
+_.qkd={VTe:0,NXe:1,jnc:2};
+}catch(e){_._DumpException(e)}
+try{
+_.h5b={Kzf:0,zFf:1,ABOVE:2,BELOW:3,Yuf:4};
+}catch(e){_._DumpException(e)}
+try{
+_.g5b={Jzf:0,hFf:1,START:2,CENTER:3,END:4,bvf:5,avf:6};
+}catch(e){_._DumpException(e)}
+try{
+_.r("P8eaqc");
+var zEd,BEd,EEd,GEd,HEd,AEd,CEd,FEd,DEd,IEd,JEd;
+zEd=function(a){var b=a.Wb,c=a.attributes;const d=a.w6,e=a.kB;var f=_.K,g=a.label;a=a.id;b="EY8ABd"+(b?" "+b:"");c=(0,_.K)('<div jscontroller="'+(e&&d===0?_.M(e):_.M("HmEm0"))+'" jsaction="'+_.M("BfpAHf")+":"+_.M("TCTP9d")+";"+_.M("Nwyqre")+":"+_.M("DsZxZc")+"; transitionend:"+_.M("e204de")+';" id="'+_.M(a)+'-visible-label" class="'+_.M("m32Jbe")+(b?" "+_.M(b):"")+'"'+(_.Mq(c)?_.Wq(_.Vq(c)):"")+' aria-hidden="true"><div jsname="'+_.M("ebgt1d")+'" class="'+_.M("k5kl8e")+" "+_.M("gSjtqb")+'"><span class="'+
+_.M("yVDMM")+'">'+_.Aq(g)+"</span></div></div>");return f(c)};
+BEd=function(a,b){const c=AEd(b);if(c.cha)a=void 0;else{a=a.Ba(b);var d=_.Nwd(b).querySelector(`#${a}`);if(!d)throw Error("Zh`"+a);d=new _.ep(d);var e=d.Xb();if(!e)throw Error("$h`"+a+"`"+b.outerHTML+"`"+d.kb().outerHTML);a=e}var f=new _.ep(b),g=e=d=void 0;_.nh(f.getData("tooltipWithCaret"),!1)?g=_.Yl(f.getData("tooltipWithCaretPosition"),_.HVb,0):(d=_.Yl(f.getData("tooltipXPosition"),_.g5b,0),e=_.Yl(f.getData("tooltipYPosition"),_.h5b,0));f=_.Yl(f.getData("tooltipAnchorBoundaryType"),_.qkd,0);d=
+{vG:d,II:e,uEa:g,Cna:f};g=new _.ep(b);e=g.getData("tooltipShowDelayMs");e=e.Kb()?_.Xl(e):void 0;g=g.getData("tooltipHideDelayMs");g=g.Kb()?_.Xl(g):void 0;e={cY:e,N0:g};b=_.nh((new _.ep(b)).getData("tooltipHoistToBody"),!1);return Object.assign({},c,{label:a},d,e,{BLb:b})};
+EEd=function(a,b,c,d,e){const {vG:f,II:g,uEa:h,Cna:k,cY:l,N0:n}=BEd(a,b);var q;if(d!==((q=a.Aa.oa)==null?void 0:q.id)){q=_.Nwd(b);var t=CEd(a,b,d,c,e.BLb||!1);d=q.querySelector(`#${d}`);if(!d)throw Error("Yh");e.BLb&&a.Ka(q,d,b);_.Uf(d,"BfpAHf",{Qyb:t,vG:f,II:g,uEa:h,Cna:k,cY:l,N0:n});a.Aa.oa=d;_.Rf(d,"O0KOhf",x=>{_.Tf(b,"rds8ac",{fA:x.data,MSc:c})});_.Rf(d,"SemCgb",x=>{const y=x.data.fA;x=x.data.dJa;let E;((E=a.Aa.oa)==null?void 0:E.id)===y&&(a.Aa.oa=null);_.Tf(b,"JEIcjd",{fA:y,dJa:x})});return DEd(a,
+d)}};
+GEd=function(a,b,c,d,e){const f=e.vG,g=e.II,h=e.Cna,k=e.cY,l=e.N0;e=e.label;var n=`${d}-visible-label`,q;if(n!==((q=a.Aa.oa)==null?void 0:q.id)){q=_.Nwd(b);var t=CEd(a,b,n,c,!1),x=q.querySelector(`#${n}`);x||(n=_.Tl((new _.ep(b)).getData("tooltipClasses"),""),x=FEd(a,{label:e,id:d,Wb:n}),q.appendChild(x));_.Uf(x,"BfpAHf",{Qyb:t,vG:f,II:g,Cna:h,cY:k,N0:l});a.Aa.oa=x;_.Rf(x,"O0KOhf",y=>{_.Tf(b,"rds8ac",{fA:y.data,MSc:c})});_.Rf(x,"SemCgb",y=>{const E=y.data.bkc;_.Tf(b,"JEIcjd",{fA:y.data.fA,dJa:y.data.dJa});_.Im(x);
+let J;((J=a.Aa.oa)==null?void 0:J.id)===E&&(a.Aa.oa=null)});return DEd(a,x)}};HEd=function(a,b){a.Ga.push(_.Rf(b,"JZCswc",()=>{a.Ca()}))};AEd=function(a){var b=new _.ep(a);a=_.nh(b.getData("tooltipIsRich"),!1);b=_.nh(b.getData("tooltipIsPersistent"),!1);return{cha:a,Naa:b}};CEd=function(a,b,c,d,e){a=IEd(a,b,c,d);return a=JEd(b,c,a,e)};FEd=function(a,b){return a.Nc.Ed(zEd,b)};DEd=function(a,b){return{isDisposed:()=>a.Aa.oa===b,dispose:()=>{const c=a.Aa.oa;if(c===b||c==null)a.Aa.oa=null,(new _.ep(b)).remove()}}};
+IEd=function(a,b,c,d){b=_.Iwd(_.Mf(b)).filter(e=>e.id!==c);for(const e of b)getComputedStyle(e).display==="none"||a.Ea||(d=3),a.Ea=!1,_.Im(e);return d};JEd=function(a,b,c,d){a=_.Jwd(_.Mf(a));const e=a.filter(g=>g.id!==b&&getComputedStyle(g).display!=="none");for(var f of e)c=3,_.Uf(f,"Nwyqre",{x3:3});if(d)for(d=a.filter(g=>g.id===b),f=1;f<d.length;f++)_.Im(d[f]);return c};
+_.KEd=class extends _.To{static Sa(){return{Gc:{Nc:_.yq},service:{Zjc:_.Owd,xda:_.Kwd}}}constructor(a){super();this.Ea=!1;this.Ga=[];this.Nc=a.Gc.Nc;this.Aa=a.service.xda}Ka(a,b,c){b.parentElement!==a&&(a.appendChild(b),c.parentElement&&_.Upa(b)===a&&_.If(b,c.parentElement))}showTooltip(a,b){const c=this.Ba(a),d=BEd(this,a);a:{var e=d.Naa;if(d.cha&&e){if(b===1||b===2||b===5){e=!1;break a}}else if(b===4){e=!1;break a}e=!0}if(e)return(b=d.cha?EEd(this,a,b,c,d):GEd(this,a,b,c,d))&&HEd(this,a),b}oa(a,
+b,c){const d=this.Aa.oa;var e=this.Ba(a);let f=(d==null?void 0:d.id)||"";f=f.endsWith("-visible-label")?f.slice(0,-14):f;if(d&&f===e){a=AEd(a);a:{e=a.Naa;if(a.cha&&e){if(b===1||b===7){a=!1;break a}}else if(b===4){a=!1;break a}a=!0}if(a&&(_.Tf(d,"Nwyqre",{x3:b,m8b:c}),b!==5))for(this.Aa.oa=null;this.Ga.length>0;)b=this.Ga.pop(),_.Qf(b)}}Na(){this.Ea=!0}Ma(a){const b=this.Ba(a),c=this.Aa.oa;c&&(c==null?void 0:c.id)===b?this.oa(a,4):this.showTooltip(a,4)}Da(){return this.Aa.oa!=null}Ca(){const a=this.Aa.oa;
+if(a){var b=new _.ep(a);b.hasClass("ziykHb")||b.hasClass("hAndib")?_.Tf(a,"Nwyqre",{x3:6}):b.remove();this.Aa.oa=null}}Ba(a){a=a.getAttribute("data-tooltip-id")||a.getAttribute("aria-describedby");if(!a)throw Error("ai");return a}};_.Vo(_.yEd,_.KEd);
+_.u();
+}catch(e){_._DumpException(e)}
+})(this._s);
+// Google Inc.
